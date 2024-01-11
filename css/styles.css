@@ -219,9 +219,7 @@ color: #404BBF;
     gap: 24px;
 }
 
-.features-item {
-    width: calc((100%-72px)/4);
-}
+
 
 .header-features-list {
     color: #2e2f42;
@@ -341,7 +339,6 @@ margin-bottom: 8px;
 }
 
 .portfolio-list-items {
-    width: calc((100% - 48px)/3);
     background: #FFF;
     border: 1px solid var(--CORNFLOWER, #E7E9FC)
 }
@@ -377,6 +374,8 @@ max-width: 1158px;
 }
 
 .footer-logo {
+margin: 0;
+bottom: 0;
 display: inline-flex;
 height: 24px;
 align-items: center;
