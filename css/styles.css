@@ -28,6 +28,9 @@ address {
 font-style: normal;
 }
 
+img {
+    display: block;
+}
 .container {
     max-width:1158px;
     padding: 0 15px;
@@ -275,12 +278,17 @@ color: #404BBF;
 
 /**--------------PORTFOLIO--------------*/
 
-.container-portfolio {
+.sectionfour-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.portfolio-container {
     width: 1128px;
-    height: 3300px;
     flex-shrink: 0;
     background: #FFF;
     max-width: 1158px;
+    padding: 32px 16px;
 }
 
 .header-portfolio {
@@ -291,7 +299,6 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-padding-top: 120px;
 text-align: center;
 padding-bottom: 72px;
 }
@@ -300,7 +307,6 @@ padding-bottom: 72px;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    padding-bottom: 120px;
 }
 
 .portfolio-list-items {
@@ -315,7 +321,6 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
-padding-top: 32px;
 }
 
 .portfolio-item {
@@ -323,10 +328,13 @@ color: #434455;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-padding-bottom: 32px;
 }
 
 /**-----------------FOOTER--------------*/
+
+.footer {
+padding: 100px 0;
+}
 
 .footer-container {
 background: #2E2F42;
@@ -347,6 +355,8 @@ display: inline-block;
 padding-bottom: 16px;
 padding-top: 101.5px;
 padding-left: 18px;
+display: inline-block;
+margin-bottom: 16px;
 }
 
 
