@@ -220,12 +220,12 @@ color: #404BBF;
 
 .header-features {
     display: flex;
-    padding-left: 18px;
-    padding-right: 18px;
     gap: 24px;
 }
 
-
+.features-item {
+width: calc((100%-72px)/4);
+}
 
 .header-features-list {
     color: #2e2f42;
@@ -315,7 +315,6 @@ padding: 32px 0;
 .portfolio-container {
     background: #FFF;
     max-width: 1158px;
-    padding: 32px 16px;
 }
 
 .header-portfolio {
