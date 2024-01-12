@@ -308,7 +308,8 @@ padding: 32px 0;
 /**--------------PORTFOLIO-Section-4--------------*/
 
 .section-four {
-padding: 120px 0 120px 0;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 .header-portfolio {
@@ -338,9 +339,7 @@ margin-bottom: 8px;
 }
 
 .portfolio-features {
-color: #2e2f42;
 font-size: 20px;
-font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
